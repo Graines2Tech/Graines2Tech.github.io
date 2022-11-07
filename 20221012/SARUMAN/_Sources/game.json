@@ -475,7 +475,14 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "mort",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -761,6 +768,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "b5a9ab8e-2ebd-49c0-a596-58e60f5c9aea",
+          "width": 0,
+          "x": 297,
+          "y": 63,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -774,6 +796,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -786,9 +810,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -1146,10 +1168,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1264,11 +1286,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "Up"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "mort",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1296,7 +1335,17 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "mort",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -1316,11 +1365,28 @@
           "conditions": [
             {
               "type": {
-                "value": "PlatformBehavior::IsOnFloor"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Dino",
-                "PlatformerObject"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Dino",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "mort",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1428,22 +1494,23 @@
                 "=",
                 "3"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "Montre"
               },
               "parameters": [
-                "Arthur",
-                "180",
-                "250",
+                "NewText",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "mort",
+                "True"
               ]
             }
           ]
@@ -1453,13 +1520,10 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "SceneVariableAsBoolean"
               },
               "parameters": [
-                "Dino",
-                "Arthur",
-                "",
-                "",
+                "mort",
                 ""
               ]
             }
@@ -1467,10 +1531,12 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "AddForceAL"
               },
               "parameters": [
-                "NewText",
+                "Arthur",
+                "180",
+                "250",
                 ""
               ]
             }
@@ -1495,58 +1561,6 @@
               },
               "parameters": [
                 "NewText"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Dino",
-                "\"mort\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Dino",
-                "Arthur",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "NewText",
-                ""
               ]
             }
           ]
