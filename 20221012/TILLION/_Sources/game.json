@@ -336,21 +336,6 @@
           "height": 0,
           "layer": "",
           "name": "moutard",
-          "persistentUuid": "6295924c-1697-42fe-8489-54c46499c9ac",
-          "width": 0,
-          "x": 240,
-          "y": 403,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
           "persistentUuid": "ef6cf28e-726d-4f7d-abd0-c92aba11b5f5",
           "width": 0,
           "x": 2166,
@@ -413,8 +398,8 @@
           "name": "lucienetauguste",
           "persistentUuid": "09171588-fbca-4425-8698-2d57957704d2",
           "width": 0,
-          "x": 640,
-          "y": 234,
+          "x": 383,
+          "y": 210,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -423,13 +408,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 605,
+          "height": 600,
           "layer": "",
           "name": "decor",
           "persistentUuid": "b9bad69e-9ddd-43b6-a6b1-c16fb98a023e",
-          "width": 794,
-          "x": 1802,
-          "y": -157,
+          "width": 800,
+          "x": 0,
+          "y": 0,
           "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
@@ -443,24 +428,9 @@
           "name": "moutard",
           "persistentUuid": "a9162f16-1c00-4c7c-bc2d-9c7081a39bb0",
           "width": 0,
-          "x": 818,
-          "y": 251,
+          "x": 875,
+          "y": 134,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "f69f8cf6-47f5-4ee0-a882-37bbcf0d9fd1",
-          "width": 0,
-          "x": 802,
-          "y": 361,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -531,25 +501,10 @@
           "height": 0,
           "layer": "",
           "name": "moutard",
-          "persistentUuid": "c934ddfe-74c3-4dc0-bb1e-2c9e0a9f80eb",
-          "width": 0,
-          "x": 1746,
-          "y": -327,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
           "persistentUuid": "48f8cf1b-cc5d-47c3-9817-81e26c4f53ac",
           "width": 0,
-          "x": 1042,
-          "y": 286,
+          "x": 1142,
+          "y": 348,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -563,8 +518,8 @@
           "name": "banane",
           "persistentUuid": "ff4dc440-7d45-4d3f-b264-65d2c9f5f383",
           "width": 0,
-          "x": 432,
-          "y": 240,
+          "x": 80,
+          "y": 221,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -578,8 +533,8 @@
           "name": "NewSprite",
           "persistentUuid": "482e23d1-aa50-45a4-a84e-951c1564b7a2",
           "width": 0,
-          "x": 2650,
-          "y": 166,
+          "x": 929,
+          "y": -24,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -608,54 +563,9 @@
           "name": "NewSprite",
           "persistentUuid": "7c8923c8-bb4b-4850-99c8-4ce7093bb296",
           "width": 0,
-          "x": 2479,
-          "y": 14,
+          "x": 891,
+          "y": 321,
           "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "a04cff36-742c-406b-8b4f-ab28b19998e1",
-          "width": 0,
-          "x": 1548,
-          "y": -122,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "ee9a08ee-7994-4374-a673-7e7ee7fb4291",
-          "width": 0,
-          "x": 1022,
-          "y": 4,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "ad79c4d8-3946-4217-8970-6ae7122db297",
-          "width": 0,
-          "x": 910,
-          "y": 104,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -668,8 +578,8 @@
           "name": "NewSprite",
           "persistentUuid": "07a1d236-7237-41c8-99d6-f0bc61671a94",
           "width": 0,
-          "x": 2625,
-          "y": -25,
+          "x": 644,
+          "y": -21,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -683,8 +593,8 @@
           "name": "salut",
           "persistentUuid": "ad6c24ac-01c9-4c4d-ad0a-298d8494ce7c",
           "width": 135,
-          "x": 2884,
-          "y": -13,
+          "x": 2163,
+          "y": 30,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -698,8 +608,8 @@
           "name": "salut",
           "persistentUuid": "c95d7204-97ae-41c0-bb2e-d9fe78a30b8e",
           "width": 0,
-          "x": 3227,
-          "y": 23,
+          "x": 1965,
+          "y": 333,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -713,24 +623,9 @@
           "name": "salut",
           "persistentUuid": "ecfc987b-52ce-42b2-8955-cad7a6e1d3b0",
           "width": 0,
-          "x": 1955,
-          "y": -46,
+          "x": 1686,
+          "y": 137,
           "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "1bcc58a6-d4cf-4f95-b6cd-25194fc656f6",
-          "width": 0,
-          "x": 1924,
-          "y": -268,
-          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -773,8 +668,8 @@
           "name": "moutard",
           "persistentUuid": "195ae160-b525-4b4c-aca7-020d30bc14f4",
           "width": 0,
-          "x": 372,
-          "y": 163,
+          "x": 367,
+          "y": 70,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -788,8 +683,8 @@
           "name": "salut",
           "persistentUuid": "74c89931-d2d9-4dcf-8207-214d063a01c5",
           "width": 0,
-          "x": 1851,
-          "y": 435,
+          "x": 1217,
+          "y": 285,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -809,21 +704,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "moutard",
-          "persistentUuid": "cec61e82-8b4c-4ca0-a9f5-cb435ac68442",
-          "width": 0,
-          "x": 1303,
-          "y": -44,
-          "zOrder": 44,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -837,6 +717,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -849,9 +731,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -1078,10 +958,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -1137,6 +1017,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -1149,9 +1031,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -1169,125 +1049,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewSprite-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_82.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dino_Dead_6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1359,6 +1120,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -1371,9 +1134,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -1496,6 +1257,28 @@
                 "250",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "salut",
+                "180",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "NewSprite",
+                "180",
+                "250",
+                ""
+              ]
             }
           ]
         },
@@ -1558,7 +1341,7 @@
               "parameters": [
                 "moutard",
                 "=",
-                "1900"
+                "2300"
               ]
             }
           ]
