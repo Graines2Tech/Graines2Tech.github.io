@@ -1,0 +1,40 @@
+{
+  "version": "1.2",
+  "media": {
+    "default_library": "repo_media",
+    "libraries": [
+      {
+        "key": "repo_media",
+        "label": "Repository media",
+        "references": {
+          "write": {
+            "mode": "root_relative",
+            "base_path": "/"
+          },
+          "allow_default_library_fallback": true
+        },
+        "limits": {
+          "max_file_size_mb": 10
+        },
+        "driver": "git",
+        "storage": {
+          "root_path": "public"
+        }
+      }
+    ]
+  },
+  "ssg_framework": "nextjs",
+  "frontmatter_format": "yaml",
+  "publishing_mode": "editorial_workflow",
+  "collections": [
+    {
+      "name": "Realisations",
+      "git_path": "content/blog",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "label": "Posts",
+      "description": "Ensemble de posts sur les réalisations des participants",
+      "collection_type": "grouped"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "graines2tech",
+      "display_name": "Graines2tech",
+      "website_url": "https://graines2tech.github.io/",
+      "root_path": ""
+    }
+  ]
+}
